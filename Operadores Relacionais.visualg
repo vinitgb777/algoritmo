@@ -1,0 +1,12 @@
+algoritmo "Primeiro Programa"
+
+var
+  A, B, C: inteiro
+
+inicio
+
+  A <- 2
+  B <- 3
+  C <- 5
+  Escreva (B<=(c mod 2))
+fimalgoritmo

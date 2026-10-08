@@ -1,0 +1,25 @@
+algoritmo "quantosentre0e10"
+
+var
+
+  c,v, tot010, Simp: inteiro
+
+inicio
+  tot010 <- 0
+  Simp <- 0 
+  para c de 1 ate 6 faca
+    Escreval ("Digite um valor: ")
+    leia (v)
+    Se (v >=0 ) e (V <=10) entao
+    tot010 <- tot010 + 1
+    Se (V mod 2 = 1) entao
+    Simp <- Simp + V
+    Fimse
+    Fimse
+  Fimpara
+  Escreval ("Ao todo foram ", tot010, " numeros entre 0 e 10")
+  Escreval ("Nesse intervalo, a soma de todos valores impares e ", simp)
+
+
+fimalgoritmo
+

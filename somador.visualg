@@ -1,0 +1,15 @@
+algoritmo "somadornumerico"
+
+var
+  cont, n, s: inteiro
+inicio
+  cont <- 1
+  s <- 0
+  Enquanto (cont <=5) faca
+  Escreval ("Digite o " , cont, "o. valor : ")
+  Leia (N)
+  S <- S + N
+  cont <- cont +1
+  FimEnquanto
+  Escreval ("A soma de todos os valores foi ", S)
+fimalgoritmo

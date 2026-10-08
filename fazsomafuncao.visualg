@@ -1,0 +1,23 @@
+algoritmo "fazsomafuncao"
+
+var
+  x, y, resultado: inteiro
+
+funcao Soma (A, B: Inteiro): Inteiro
+inicio
+  retorne A + B
+fimfuncao
+
+inicio
+  Escreval ("Digite o primeiro valor: ")
+  Leia (x)
+  
+  Escreval ("Digite o segundo valor: ")
+  Leia (y)
+  
+  resultado <- Soma(x, y)
+  
+  Escreval ("Recebi o valor ", x)
+  Escreval ("Recebi o valor ", y)
+  Escreval ("A soma entre os dois é ", resultado)
+fimalgoritmo

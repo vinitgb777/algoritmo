@@ -1,0 +1,12 @@
+algoritmo "conteate10"
+
+var
+ contador: inteiro
+inicio
+    contador <- 100
+    Enquanto (contador >=0) faca
+    Escreval(contador)
+      contador <- contador - 10
+    Fimenquanto
+    Escreval ("terminei de contar")
+fimalgoritmo

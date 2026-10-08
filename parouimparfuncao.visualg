@@ -1,0 +1,23 @@
+algoritmo "parouimparfuncao"
+
+var
+
+  n:inteiro
+  r: caractere
+
+Funcao ParOuImpar (v:inteiro): caractere
+  inicio
+    Se (v mod 2 = 0) entao
+      Retorne "PAR"
+    senao
+      Retorne "IMPAR"
+    fimse
+Fimfuncao
+inicio
+
+  Escreval ("Digite um numero ")
+  Leia (n)
+  R <- ParouImpar (N)
+  Escreva ("O numero ", N, " e um valor ", R)
+
+fimalgoritmo

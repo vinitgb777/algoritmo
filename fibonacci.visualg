@@ -1,0 +1,21 @@
+algoritmo "fibonacci"
+var
+   c, t1, t2, t3: inteiro
+
+inicio
+   t1 <- 0
+   t2 <- 1
+   
+   escreva(t1, "  ", t2)
+   
+   c <- 3
+   enquanto c <= 15 faca
+      t3 <- t1 + t2
+      escreva("  ", t3)
+      t1 <- t2
+      t2 <- t3
+      c <- c + 1
+   fimenquanto
+   
+   escreval()
+fimalgoritmo

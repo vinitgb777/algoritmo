@@ -1,0 +1,17 @@
+algoritmo "contanegativos"
+
+var
+  n,c, totn: inteiro
+inicio
+  c <- 1
+  totn <- 0
+  Repita
+    Escreval ("Digite um numero: ")
+    Leia (n)
+    Se (N < 0) entao
+      Totn <- totn + 1
+    Fimse  
+      c <- c + 1
+    Ate (C > 5)
+    Escreval ("Foram Digitados ", totn, " valores negativos")
+  fimalgoritmo

@@ -1,0 +1,32 @@
+algoritmo "melhoraluno"
+
+var
+   contador, qtd: inteiro
+   melhoraluno, aluno: caractere
+   nota, melhornota: real
+inicio
+   contador <- 1
+   Escreval ("------------------")
+   Escreval ("Escola Vini Green")
+   Escreval ("------------------")
+   Escreval ("Quantos alunos a turma tem ? ")
+   leia (qtd)
+   Escreval ("------------------")   
+   Enquanto (contador <= qtd) faca
+      Escreval ("aluno ", contador)
+      Escreva ("Nome do aluno: ")
+      leia (aluno)
+      Escreva("Nota de ", aluno, ": ")
+      Leia (nota)        
+      Se (nota > melhornota) entao
+         melhornota <- nota
+         melhoraluno <- aluno
+      Fimse      
+      contador <- contador + 1
+      Escreval ("---------------")
+   Fimenquanto
+   
+   Escreval ("------------------")
+   Escreval ("O melhor aproveitamento foi de ", melhoraluno, " com a nota ", melhornota)
+
+fimalgoritmo

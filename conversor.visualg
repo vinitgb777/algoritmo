@@ -1,0 +1,9 @@
+algoritmo "conversor"
+var
+  angulo, S: real
+inicio
+  Escreva ("Informe um angulo: ")
+  leia (angulo)
+  S <- Sen(grauprad(angulo))
+  escreva ("o seno de ", angulo, " e igual a ", s)
+fimalgoritmo

@@ -1,0 +1,17 @@
+algoritmo "conversormoedas"
+
+
+var
+  r, d,c: real
+
+inicio
+
+  c <- 1
+  enquanto (c <= 4 )faca
+    Escreval ("Qual o valor em R$ ")
+    Leia (R)
+    D <- R/5.12
+    Escreval ("O valor convertido e US$ ", D:5:2)
+    C <- c + 1
+  Fimenquanto
+fimalgoritmo

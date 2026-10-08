@@ -1,0 +1,15 @@
+algoritmo "valorespares"
+
+var
+  cont, v: inteiro
+inicio
+  Escreva ("Digite um valor: ")
+  leia (v)
+  Se (v mod 2=1 )entao
+    V <- V - 1
+  Fimse
+  para cont de v ate 0 passo -2 faca
+    Escreval(cont)
+  Fimpara
+
+fimalgoritmo

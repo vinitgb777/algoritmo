@@ -1,0 +1,24 @@
+algoritmo "voto"
+
+var
+  idade: inteiro
+
+
+inicio
+
+  Escreva ("Digite a sua idade")
+  Leia (idade)
+  se
+  (idade < 16)
+  entao
+  escreval ("voce e jovem para votar")
+  se (idade ( (>=18 e > 70))
+  entao
+  escreval ("voto obrigatorio")
+  se (idade > 70)
+  entao
+  escreva ("voto facultativo")
+fimse
+fimse
+fimse
+fimalgoritmo

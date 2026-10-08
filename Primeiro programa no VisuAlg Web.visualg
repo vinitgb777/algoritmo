@@ -1,0 +1,6 @@
+algoritmo "PrimeiroPrograma"
+var
+
+inicio
+  escreval("Olá, mundo!")
+fimalgoritmo

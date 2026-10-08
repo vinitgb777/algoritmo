@@ -1,0 +1,28 @@
+algoritmo
+
+var
+  n1,n2,media: real
+
+inicio
+  Escreval ("-------------------")
+  Escreval ("ESCOLA VINI GREEN")
+  Escreval ("-------------------")
+  Escreval ("Digite a primeira nota")
+  leia (n1)
+  Escreval ("Digite a segunda nota")
+  Leia (n2)
+  Escreval ("---------------------")
+  media <- (n1+n2)/2
+  Escreval ("A MEDIA DO ALUNO FOI : ",media:4:2)
+  se (media >=7) entao
+    Escreval ("ALUNO APROVADO")
+  senao
+    se (media >=5) e (media <7) entao
+      Escreval ("ALUNO EM RECUPERACAO")
+    senao
+      Escreval ("ALUNO REPROVADO")
+    fimse
+  fimse
+  Escreva ("-------------------")
+
+fimalgoritmo

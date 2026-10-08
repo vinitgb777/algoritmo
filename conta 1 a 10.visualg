@@ -1,0 +1,13 @@
+algoritmo "conta1a10"
+
+var 
+  cont: inteiro
+inicio
+
+    Cont <- 1
+    Repita
+    Escreval (cont)
+    Cont <- cont + 1
+    Ate (cont >10)
+
+fimalgoritmo

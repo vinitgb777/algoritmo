@@ -1,0 +1,36 @@
+algoritmo "supercontador"
+
+var 
+contador : inteiro
+opc : inteiro  
+
+inicio
+  repita
+  escreval("=================")
+  escreval("|  M  E  N U    |")
+  escreval("=================")
+  escreval("| [1] De 1 a 10 |")
+  escreval("| [2] De 10 a 1 |")
+  escreval("| [3] Sair      |")
+  escreval("=================")
+  leia (opc)  
+  Escolha (opc)
+  Caso 1
+  contador <- 1  
+  Enquanto (contador <=10) faca
+    Escreva(contador,"..")
+    contador <- contador + 1
+  Fimenquanto
+     Caso 2
+  contador <- 10  
+  Enquanto (contador >=1) faca
+    Escreva(contador,"..")
+    contador <- contador - 1
+  Fimenquanto  
+    Caso 3
+    Escreval ("SAINDO...")
+    Fimescolha
+    Ate(opc = 3)
+  
+  
+fimalgoritmo

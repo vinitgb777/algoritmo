@@ -1,0 +1,27 @@
+algoritmo "CNH"
+
+var
+  ano_atual, ano_nasc, idade: inteiro
+
+inicio
+  Escreval ("------------------------")
+  Escreval ("DEPARTAMENTO DE TRANSITO")
+  Escreval("------------------------")
+  Escreval ("Ano Atual (yyyy): ")
+  Leia (ano_atual)
+  Escreval ("Ano de Nascimento (yyyy): ")
+  leia (ano_nasc)
+  idade <- ano_atual - ano_nasc
+  EscrevaL ("--------STATUS--------")
+  Escreval("IDADE: ", idade, " ANOS")
+  se (idade >=18) entao
+    EscrevaL ("APTO A TIRAR CARTEIRA")
+  senao
+    EscrevaL ("INAPTO A TIRAR CARTEIRA")
+
+
+  Fimse
+
+  Escreva("----------------------")
+
+fimalgoritmo

@@ -1,0 +1,17 @@
+algoritmo "somarepita"
+
+var
+  n: inteiro
+  s: inteiro
+  resp: caractere
+inicio
+  S <- 0
+  repita
+    Escreval("Digite um valor: ")
+    leia(n)
+    S <- S + n
+    Escreva ("Quer continuar? [S/N] ")
+    Leia (resp)
+  Ate (resp = "N")
+  Escreval ("A soma dos valores e ", S)
+fimalgoritmo

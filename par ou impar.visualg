@@ -1,0 +1,15 @@
+algoritmo "parouimpar"
+
+var
+  n: inteiro
+
+inicio
+  escreval ("Digite um numero")
+  Leia (n)
+  se (n mod 2 = 0)entao
+    Escreval ("o numero ", N, " é par")
+  senao
+    Escreval ("o numero ", n, " é impar")
+  Fimse
+
+fimalgoritmo

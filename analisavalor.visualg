@@ -1,0 +1,32 @@
+algoritmo "analisavalor"
+var
+  c,valor,soma,totdiv5,totnulos,somapares: inteiro
+  media: real
+inicio
+  c <- 1
+  soma <- 0
+  totdiv5 <- 0
+  totnulos <- 0
+  somapares <- 0
+  enquanto (c <= 5) faca
+    escreval("Digite o ", c, "º valor:")
+    leia(valor)
+    soma <- soma + valor
+    se (valor mod 5 = 0)  entao
+      totdiv5 <- totdiv5+1
+    fimse
+    se (valor = 0) entao
+      totnulos <- totnulos + 1
+    fimse
+    se (valor mod 2 = 0)entao
+      somapares <- somapares + 1
+    Fimse
+    c <- c + 1
+  fimenquanto
+  media <- soma / 5
+  escreval("a soma entre os valores e ", soma )
+  escreval("a media entre os valores e ", media)
+  escreval("um total de ",totdiv5, " sao diviseis por 5 ")
+  escreval("um total de " totnulos, " sao nulos ")
+  escreval("a soma dos pares e ", somapares)
+fimalgoritmo

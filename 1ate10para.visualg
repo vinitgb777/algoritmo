@@ -1,0 +1,15 @@
+algoritmo "1ate10para"
+
+var
+n: inteiro
+c: inteiro
+s: inteiro
+inicio
+  S <- 0
+  Para c de 1 ate 5 faca
+  Escreval("Digite um valor: ")
+  leia(n)
+  S <- S + n
+    fimpara
+  Escreval ("A soma dos valores e ", S)
+fimalgoritmo

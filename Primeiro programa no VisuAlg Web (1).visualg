@@ -1,0 +1,9 @@
+algoritmo "PrimeiroPrograma"
+var
+msg:caracter
+
+inicio
+ 
+  msg <- ("Olá Mundo")
+  Escreva (msg)
+fimalgoritmo

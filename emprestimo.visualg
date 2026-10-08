@@ -1,0 +1,17 @@
+algoritmo "emprestimo"
+
+
+var
+emprestimo: real
+parcela: inteiro
+valor_parcela: real
+
+inicio
+ 
+Escreval ("Qual o valor do emprestimo? ")
+leia (emprestimo)
+Escreval ("Quantas parcelas? ")
+leia (parcela)
+valor_parcela <- (emprestimo * 1.2 ) / parcela
+Escreva ("Eu vou pagar ", parcela," parcelas de R$ ", valor_parcela:5:2) 
+fimalgoritmo

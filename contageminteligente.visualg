@@ -1,0 +1,31 @@
+algoritmo "contageminteligente"
+
+var
+   inicial, final, contador: inteiro
+
+inicio
+   Escreval("CONTAGEM INTELIGENTE")
+   Escreval("--------------------")
+   Escreval("Inicio: ")
+   leia(inicial)
+   Escreva("Fim: ")
+   leia(final)
+   Escreval("--------------------")
+   Escreval("C O N T A N D O")
+   Escreval("--------------------")
+
+   Se (inicial < final) entao
+      contador <- inicial
+      Enquanto (contador <= final) faca
+         Escreva(contador, ".. ")
+         contador <- contador + 1
+      Fimenquanto
+   Senao
+      contador <- inicial
+      Enquanto (contador >= final) faca
+         Escreva(contador,".. ")
+         contador <- contador - 1
+      Fimenquanto
+   Fimse
+
+fimalgoritmo
